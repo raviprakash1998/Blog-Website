@@ -9,7 +9,6 @@ html {
   font-size: 62.5%;
 }
 body {
-  background-color: #6b90b1;
   font-family: "Poppins", sans-serif;
   font-weight: 300;
 }
@@ -157,7 +156,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6b90b1;
+  background-color: #cfecfe;
 }
 .form {
   max-width: 60rem;
