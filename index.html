@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Newsworthy Network</title>
+    <link rel="stylesheet" href="styling.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <!-------------------------- Header Section --------------------------------->
+    <header class="nav-container">
+      <div>
+        <a class="brand-logo" href="index.html">Newsworthy Network</a>
+      </div>
+      <div>
+        <ul class="nav-items">
+          <li>
+            <a class="nav-item active" href="index.html">Home</a>
+          </li>
+          <li>
+            <a class="nav-item" href="category.html">Category</a>
+          </li>
+          <li>
+            <a class="nav-item" href="blog.html">Blog</a>
+          </li>
+          <li>
+            <a class="nav-item" href="contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <form class="form-inline">
+          <input
+            class="form-control dd-search"
+            type="text"
+            placeholder="Search..."
+          />
+          <button class="btn dd-btn" type="submit">Search</button>
+        </form>
+      </div>
+    </header>
+    <!-------------------------- Main Section --------------------------------->
+    <main class="main-section">
+      <form class="blog-container blog-form" id="new-post">
+        <label for="title">Title:</label>
+        <input class="input" type="text" id="title" />
+        <label for="body">Body:</label>
+        <textarea class="input" id="body"></textarea>
+        <button class="post-btn">Post</button>
+      </form>
+
+      <div id="blogs" class="blog-container blogs"></div>
+    </main>
+    <!-------------------------- Footer Section --------------------------------->
+    <footer>
+      <section class="section-footer">
+        <div class="footer-links grid--4-cols">
+          <a href="" class="logo logo-footer">Newsworthy Network</a>
+          <div class="links">
+            <h3>Main Links</h3>
+            <ul>
+              <li><a href="#blog">Latest News</a></li>
+              <li><a href="#blog">Latest Blogs</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#blog">News & Blogs</a></li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="">Privacy Policy</a></li>
+              <li><a href="">Terms & Conditions</a></li>
+            </ul>
+          </div>
+          <div class="links">
+            <h3>Follow Us</h3>
+            <ul>
+              <li>
+                <a href="#"
+                  ><ion-icon name="logo-twitter"></ion-icon> Twitter</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><ion-icon name="logo-facebook"></ion-icon> Facebook</a
+                >
+              </li>
+              <li>
+                <a href=""
+                  ><ion-icon name="logo-instagram"></ion-icon> Instagram</a
+                >
+              </li>
+              <li>
+                <a href=""><ion-icon name="logo-youtube"></ion-icon> Youtube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
